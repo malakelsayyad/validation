@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="logContainer" class="container  text-center form-control mt-5 bg-danger-subtle  ">
+        <div class=" m-auto w-75 p-5">
+            <h1 class="heading pt-4 mb-4">Smart Login System</h1>
+
+            <input id="signInEmail" class="form-control p-3 mt-2" placeholder="Enter your email" type="text">
+            <input id="signInPass" class="form-control p-3 mt-2" placeholder="Enter your password" type="password">
+            <p id="incorrect"></p>
+
+            <button id="logIn" onclick="login()" class="btn btn-dark p-2 mt-3">Login</button>
+            <p class="mt-2">Don’t have an account? <a href='signUp.html'>Sign Up</a></p>
+            <p id="loginError"></p>   
+        </div>
+    </div>
+    <div id="welcome"></div>
+   
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>

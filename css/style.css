@@ -1,0 +1,24 @@
+body {
+  background: #030d12;
+  font-family: "Playwrite ES Deco", cursive;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+#home {
+  height: 75vh;
+}
+
+
+.box {
+  box-shadow: -5px 2px 54px -9px rgb(220, 216, 216);
+}
+
+
+
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 0 0 transparent !important;
+}

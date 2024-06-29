@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>Sign Up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container  text-center form-control mt-5 bg-danger-subtle ">
+        <div class="m-auto w-75 p-5">
+            <h1 class="heading pt-4 mb-4" >Smart Login System</h1>
+
+            <input id="signUpName" class="form-control p-3 mt-2" placeholder="Enter your name" type="text">
+            <input id="signUpEmail" class="form-control p-3 mt-2" placeholder="Enter your email" type="email">
+
+            <input id="signUpPass" class="form-control p-3 mt-2" placeholder="Enter your password" type="password">
+            <p id="emailExist"></p>
+
+            <button onclick=" signUp()" class="btn btn-dark p-2 mt-3">Sign Up</button>
+            <p class="mt-2">You have an account? <a href='index.html'>Sign in</a></p>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="signUp.js"></script>
+</body>
+
+</html>
